@@ -5,9 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const client = process.env.REACT_APP_CLIENT;
 root.render(
   <React.StrictMode>
-    <App />
+    <App client={client} />
   </React.StrictMode>
 );
 
