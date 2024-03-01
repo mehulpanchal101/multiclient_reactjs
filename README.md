@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# React.js Multi-Client Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React.js application designed to serve multiple clients with the same codebase, but with different UI/behavior based on client-specific configurations. It leverages conditional rendering to customize the user experience for each client.
+
+## Overview
+
+In many scenarios, it's common to have a single codebase for a React.js application that serves multiple clients, such as different organizations, businesses, or user groups. However, each client may have specific requirements or branding that necessitates unique UI elements or functionality.
+
+This project demonstrates how to manage multiple clients within a single React.js codebase by utilizing conditional rendering. By configuring client-specific settings, components can adapt their appearance and behavior accordingly, allowing for a tailored experience for each client without duplicating code.
+
+## Features
+
+- **Client-Specific Configuration**: Define client-specific settings or configurations to customize the application for each client.
+- **Conditional Rendering**: Utilize conditional rendering techniques to display different UI elements or behaviors based on the current client.
+- **Dynamic Styling**: Customize styles based on client preferences, such as colors, fonts, or layout.
+
 
 ## Available Scripts
 
